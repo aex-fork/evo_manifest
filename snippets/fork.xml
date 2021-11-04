@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="fork"
+           fetch="https://github.com/aex-fork"
+           revision="refs/heads/snow" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="twelve" />
+
+<project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+
+</manifest>
